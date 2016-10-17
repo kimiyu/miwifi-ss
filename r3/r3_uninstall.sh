@@ -13,4 +13,4 @@
 	/etc/init.d/firewall restart
 	/etc/init.d/dnsmasq restart
 	echo "卸载Shadowsocks完成"
-	cd /tmp && rm -rf *.sh && wget https://raw.githubusercontent.com/JeansHuang/miwifi-ss/master/miwifi.sh && sh ./miwifi.sh && rm -rf *.sh
+	cd /tmp && rm -rf *.sh && wget http://7xo6sw.com1.z0.glb.clouddn.com/miwifi.sh && sh ./miwifi.sh && rm -rf *.sh
