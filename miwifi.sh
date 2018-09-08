@@ -33,7 +33,7 @@ if [ "${num}" == "2" ]
 then
 cd /tmp
 rm -rf *.sh
-wget hhttp://7xo6sw.com1.z0.glb.clouddn.com/r2d_uninstall.sh
+wget http://7xo6sw.com1.z0.glb.clouddn.com/r2d_uninstall.sh
 chmod -R 777 r2d_uninstall.sh
 ./r2d_uninstall.sh
 fi
